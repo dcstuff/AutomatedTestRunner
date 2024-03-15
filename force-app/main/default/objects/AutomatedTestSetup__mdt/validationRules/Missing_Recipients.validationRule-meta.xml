@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Recipients</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISBLANK(ProfileToEmail__c),
+	ISBLANK(PermissionSetToEmail__c),
+	ISBLANK(UserIds__c)
+)</errorConditionFormula>
+    <errorMessage>You must specify either a profile or permission set and/or a group of user IDs to be emailed the test results.</errorMessage>
+</ValidationRule>

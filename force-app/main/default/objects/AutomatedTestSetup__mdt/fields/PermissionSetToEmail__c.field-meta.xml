@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PermissionSetToEmail__c</fullName>
+    <description>Users of this permission set will be emailed the test results. These will be combined with users in any configured profile or list of user IDs.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Takes a permission set&apos;s API name</inlineHelpText>
+    <label>Permission Set To Email</label>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
